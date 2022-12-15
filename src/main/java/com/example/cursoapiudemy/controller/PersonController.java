@@ -17,7 +17,6 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import static com.example.cursoapiudemy.util.MediaType.*;
 
-
 @RestController
 @RequestMapping("/person")
 @Tag(name = "Peolpe", description = "Endpints for managing People")

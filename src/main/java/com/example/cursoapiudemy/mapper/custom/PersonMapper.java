@@ -9,11 +9,11 @@ public class PersonMapper {
 
     public Person convertVoToEntity(PersonVO vo) {
         Person person = new Person();
-        person.setId(person.getId());
-        person.setAddress(person.getAddress());
-        person.setGender(person.getGender());
-        person.setFirstName(person.getFirstName());
-        person.setLastName(person.getLastName());
+        person.setId(vo.getKey());
+        person.setAddress(vo.getAddress());
+        person.setGender(vo.getGender());
+        person.setFirstName(vo.getFirstName());
+        person.setLastName(vo.getLastName());
 //        person.setBirthDay(new Date());
 
         return person;
