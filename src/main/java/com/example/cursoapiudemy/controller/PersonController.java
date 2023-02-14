@@ -1,7 +1,7 @@
 package com.example.cursoapiudemy.controller;
 
 import com.example.cursoapiudemy.data.vo.v1.PersonVO;
-import com.example.cursoapiudemy.service.PersonServices;
+import com.example.cursoapiudemy.services.PersonServices;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -18,7 +18,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import static com.example.cursoapiudemy.util.MediaType.*;
 
 @RestController
-@RequestMapping("/person")
+@RequestMapping("/api/person")
 @Tag(name = "Peolpe", description = "Endpints for managing People")
 public class PersonController {
 

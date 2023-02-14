@@ -1,4 +1,4 @@
-package com.example.cursoapiudemy.service;
+package com.example.cursoapiudemy.services;
 
 import com.example.cursoapiudemy.controller.PersonController;
 import com.example.cursoapiudemy.data.vo.v1.PersonVO;

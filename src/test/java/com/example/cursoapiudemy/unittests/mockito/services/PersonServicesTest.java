@@ -2,10 +2,9 @@ package com.example.cursoapiudemy.unittests.mockito.services;
 
 import com.example.cursoapiudemy.data.vo.v1.PersonVO;
 import com.example.cursoapiudemy.exception.RequiredObjectIsNullException;
-import com.example.cursoapiudemy.exception.ResourceNotFoundException;
 import com.example.cursoapiudemy.model.Person;
 import com.example.cursoapiudemy.repository.PersonRepository;
-import com.example.cursoapiudemy.service.PersonServices;
+import com.example.cursoapiudemy.services.PersonServices;
 import com.example.cursoapiudemy.unittests.mapper.mocks.MockPerson;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,4 +1,4 @@
-package com.example.cursoapiudemy.service;
+package com.example.cursoapiudemy.services;
 
 
 import com.example.cursoapiudemy.controller.BookController;

@@ -1,15 +1,13 @@
 package com.example.cursoapiudemy.controller;
 
-import com.example.cursoapiudemy.service.BookServices;
+import com.example.cursoapiudemy.services.BookServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
-@RequestMapping("/books")
+@RequestMapping("/api/books")
 public class BookController {
 
     @Autowired
